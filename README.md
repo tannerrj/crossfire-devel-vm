@@ -1,0 +1,50 @@
+# Crosfire Development VirtualBox VM
+
+## Description
+
+This is the initial release (Beta-1) of an Ubuntu Noble 24.04 (Gnome) VirtualBox virtual machine with all the necessary components to run the game server, map editor, gtkv2 client, JX Client, Crossfire Resource Editor (CRE) and additional tools to modify and create new graphics. Also includes software package to communicate with the game project player developers via [Discord](https://crossfire.real-time.com/discord/) or [IRC](https://crossfire.real-time.com/irc/).
+
+While it should be safe to install and run the VM, the actual performance and stability of the VM needs further testing. So, use with caution and make sure to backup any important or critical data as you work in the VM!
+
+## Installation
+
+See the `setup.md` file for instructions on the installation and setup of the VM.
+
+### Requirements
+
+The software packages include VirtualBox and hardware capable of running VirtualBox with the recommended minimum of 64bit multicore CPU, 8GB of RAM or more, 30GB of free disk space. See the `intro.md` write up for more information on the vm configuration.
+
+## Usage
+
+The virtual machine (vm) provides an all-in-one development environment for the game of [Crossfire](https://sourceforge.net/projects/crossfire/).
+
+The `update.md` file contains instructions for updating the sourcecode and then compiling Crossfire server, GTKv2 Client, and CRE.
+
+Also included in `update.md` are instructions for downloading the latest snapshot release of Gridarta for Crossfire map editor, and JX Client.
+
+## Contributing
+
+ * Contributions are welcome.
+ * Pull requests are welcome.
+ * Creating a fork on this code base is also welcome.
+
+## Questions
+
+I can be reached via [tannerrj GitHub Profile](https://github.com/tannerrj)
+
+## Licenses:
+
+The virtual machine runs multiple software with numerous license associated with them, see <https://ubuntu.com/legal/open-source-licences>.
+
+VirtualBox is licensed under the `GNU General Public License, version 3`, <https://www.virtualbox.org/wiki/GPLv3>.
+
+Crossfire and it's related code base is released using `GNU General Public License version 2.0 (GPLv2)` license.
+
+If a license is required for the creation and release of the VM, then I am choosing to use `MIT license` - <https://opensource.org/license/mit> or included as the `LICENSE` file in this project.
+
+
+## Crossfire Social Media Links
+
+ * [Facebook](https://www.facebook.com/crossfireproject/)
+ * [Mastodon](https://mastodon.social/@crossfiremrpg)
+ * [X (Formerly Twitter)](https://twitter.com/crossfiremrpg/)
