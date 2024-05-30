@@ -86,6 +86,8 @@ References:
 
 ## VirtualMachine Export
 
+In case it is necessary, here is how the VM was created and exported as a OVA file
+
  1. Launch VirtualBox
  2. Click on `Tools`
  3. Click on `Export` button
