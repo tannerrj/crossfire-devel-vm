@@ -22,6 +22,26 @@ The `update.md` file contains instructions for updating the sourcecode and then 
 
 Also included in `update.md` are instructions for downloading the latest snapshot release of Gridarta for Crossfire map editor, and JX Client.
 
+### GTKv2 Client Launch
+
+To launch the game client using the Terminal application: `./home/cfdev/crossfire-crossfire-client/build/gtk-v2/src/crossfire-client-gtk2`
+
+### Crossfire Server Launch
+
+To launch the game server using the Terminal application: `./home/cfdev/crossfire-crossfire-server/server/crossfire-server`
+
+### Crossfire CRE
+
+To launch CRE using the Terminal application: `./home/cfdev/crossfire-crossfire-server/utils/cre/cre`
+
+### JX Client
+
+Double click the `jxclient.jar` file on the Desktop
+
+### Gridarta Map Editor
+
+Double click the `CrossfireEditor.jar` file on the Desktop
+
 ## Contributing
 
  * Contributions are welcome.
