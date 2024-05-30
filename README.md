@@ -14,6 +14,18 @@ See the `setup.md` file for instructions on the installation and setup of the VM
 
 The software packages include VirtualBox and hardware capable of running VirtualBox with the recommended minimum of 64bit multicore CPU, 8GB of RAM or more, 30GB of free disk space. See the `intro.md` write up for more information on the vm configuration.
 
+## Guidelines
+
+File shortcuts have been created on the Desktop to `settings` and `dm_file`
+
+`settings` is where you can make changes with how the game is configured.
+ * BE CAREFUL! It is possible to make changes that will not allow the game to run normally!!
+ * Any changes to the settings file will require you to recompile the server (see `update.md` for instructions on that) and also stop and restart the server before the changes are live
+
+`dm_file` is where you can select which player(s) have "god-mode" or DM (dungeon master) on the server
+ * Once this file is updated and saved, a recompile or restart of the server is -NOT- necessary; the permissions go live once the file is saved
+ * See the wiki page, [DM Commands](http://wiki.cross-fire.org/dokuwiki/doku.php/dm_commands), for more information
+
 ## Usage
 
 The virtual machine (vm) provides an all-in-one development environment for the game of [Crossfire](https://sourceforge.net/projects/crossfire/).
