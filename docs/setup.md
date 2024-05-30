@@ -57,7 +57,7 @@ You can launch or access `VirtualBox` from your `Applications` folder
 
 ### Download
 
-Download the Virtual Machine OVF file from <URL> at 5.0GB
+Download the Virtual Machine OVF file from [Google Drive](https://drive.google.com/file/d/14h4jBSPbw_QnwRSoPQ-sXx8wrgwn3QDo/view?usp=sharing) at 4.99 GB.
 
 HashSUM
  * md5 = dd86be9a7ffbc638109760de84a85fd0
@@ -69,15 +69,16 @@ HashSUM
 VirtualBox interface is the same for Linux, MacOS, and Windows - so the following instructions apply for all three (3) deployments.
 
  1. Launch VirtualBox
- 2. Click on `Import` button
- 3. Click on the folder icon to locate the vm OVF file
- 4. The OVF file is likely in your `Downloads` folder, so navigate to there and select the OVF file
- 5. Click the `Open` button
- 6. Click the `Next`button
- 7. Click the `Finish` button
- 8. Wait for VirtualBox to import the VM, this could take a couple of minutes
- 9. IMPORTANT: click the `Settings` button if you want or need to change the configuration of the VM such as CPU cores, RAM, network settings, et al.
- 10. Click the `Start` button to launch the VM
+ 2. Click on `Tools`
+ 3. Click on `Import` button
+ 4. Click on the folder icon to locate the vm OVF file
+ 5. The OVF file is likely in your `Downloads` folder, so navigate to there and select the OVF file
+ 6. Click the `Open` button
+ 7. Click the `Next`button
+ 8. Click the `Finish` button
+ 9. Wait for VirtualBox to import the VM, this could take a couple of minutes
+ 10. IMPORTANT: click the `Settings` button if you want or need to change the configuration of the VM such as CPU cores, RAM, network settings, et al.
+ 11. Click the `Start` button to launch the VM
 
 References:
  * <https://www.simplified.guide/virtualbox/vm-import>
@@ -85,7 +86,17 @@ References:
 
 ## VirtualMachine Export
 
-
+ 1. Launch VirtualBox
+ 2. Click on `Tools`
+ 3. Click on `Export` button
+ 4. Select `Open Virtualization Format 1.0`
+ 5. Choose a `file name` that the exported virtual machine will use and the location it will be saved to (defaults to the `Documents` directory)
+ 6. Select `Include only NAT network adapter MAC addresses`
+ 7. Place a check next to `Write Manifest file`
+ 8. Click `Next`
+ 9. Adjust `Virtual system settings`
+ 10. Click `Export` and wait for the OVA file creation to finish
+ 
 
 References:
  * <https://www.simplified.guide/virtualbox/vm-export>
