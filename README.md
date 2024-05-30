@@ -8,7 +8,7 @@ While it should be safe to install and run the VM, the actual performance and st
 
 ## Installation
 
-See the `setup.md` file for instructions on the installation and setup of the VM.
+See the `setup.md` file for instructions on the download link via [Google Drive](https://drive.google.com/file/d/14h4jBSPbw_QnwRSoPQ-sXx8wrgwn3QDo/view?usp=sharing) (4.99 GB), hashsum information. installation, and setup of the VM.
 
 ### Requirements
 
