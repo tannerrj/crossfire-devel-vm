@@ -9,6 +9,7 @@
  * Make note about changes to config.h - recompile requirements & server restart
  * VM export is in `Open Virtualization Format 1.0` - what else is that compatible with besides VirtualBox?
  * Improve markdown formatting and layout for existing documentation
+ * Customized the interface or theme to be more Crossfire-like vs the purple and orange of Ubuntu?
 
 ## Maintain
 
