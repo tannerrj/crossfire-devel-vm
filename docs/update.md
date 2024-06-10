@@ -24,7 +24,9 @@
     * `cd ..`
     * `sh autogen.sh && make && sudo make install`
 
- NOTE: If you make any changes to the `settings` that has a shortcut on the desktop, you will need to run the server compile steps to make those changes active; you will also need to stop and restart the Crossfire server for those changes to go live as well
+ NOTE: If you make any changes to the `settings` and/or `config.h` that has a shortcut on the desktop, you will need to run the server compile steps to make those changes active; you will also need to stop and restart the Crossfire server for those changes to go live as well
+
+For error messages encountered during the compile, check the Crossfire Wiki for [troubleshooting steps](http://wiki.cross-fire.org/dokuwiki/doku.php/server:server_compiling#troubleshooting).
 
 ### Sample Output of Server Compile
 
