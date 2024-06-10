@@ -10,19 +10,19 @@
 
  1. Launch the terminal application
  2. Check for updates in the archetypes directory
-    * `cd`
-    * `cd crossfire-crossfire-arch` 
-    * `git pull`
-    * `cd ..`
- 3.  Check for updates in the maps directory
-     * `cd crossfire-crossfire-maps/`
-     * `git pull`
-     * `cd ..`
+    1. `cd`
+    2. `cd crossfire-crossfire-arch`
+    3. `git pull`
+    4. `cd ..`
+ 3. Check for updates in the maps directory
+    1. `cd crossfire-crossfire-maps/`
+    2. `git pull`
+    3. `cd ..`
  4. Check for updates in the server directory
-    * `cd lib`
-    * `make do-collect`
-    * `cd ..`
-    * `sh autogen.sh && make && sudo make install`
+    1. `cd lib`
+    2. `make do-collect`
+    3. `cd ..`
+    4. `sh autogen.sh && make && sudo make install`
 
  NOTE: If you make any changes to the `settings` and/or `config.h` that has a shortcut on the desktop, you will need to run the server compile steps to make those changes active; you will also need to stop and restart the Crossfire server for those changes to go live as well
 
@@ -87,14 +87,14 @@ cfdev@cf-devel-beta1:~/crossfire-crossfire-server$
 
  1. Launch the terminal application
  2. Check for updates in the client directory
-    * `cd`
-    * `cd crossfire-crossfire-client`
-    * `git pull`
-    * `cd sounds`
-    * `git pull`
-    * `cd ..`
-    * `cd build`
-    * `cmake .. & build && sudo make install`
+    1. `cd`
+    2. `cd crossfire-crossfire-client`
+    3. `git pull`
+    4. `cd sounds`
+    5. `git pull`
+    6. `cd ..`
+    7. `cd build`
+    8. `cmake .. & build && sudo make install`
 
 
 ### Sample Output of GTKv2 Client Compile
@@ -258,10 +258,10 @@ The CRE Update requires that the game server is updated and compiled first!
 
  1. Launch the terminal application
  2. Change directory (`cd`) to the `utils` directory
-    * `cd`
-    * `cd crossfire-crossfire-server/utils/cre/`
-    * `qmake`
-    * `make`
+    1. `cd`
+    2. `cd crossfire-crossfire-server/utils/cre/`
+    3. `qmake`
+    4. `make`
  3. Launch CRE using `./cre` or `./home/cfdev/crossfire-crossfire-server/utils/cre/cre`
 
 
@@ -289,11 +289,11 @@ The cf-devel-vm is not configured to compile the JX Client, a snapshot release o
 
  1. Launch the terminal application
  2. Check for updates in the archetypes directory
-    * `cd`
-    * `cd Desktop`
-    * `rm jxclient.jar`
-    * `wget https://sourceforge.net/projects/crossfire/files/jxclient/jxclient.jar`
-    * `chmod +x jxclient.jar`
+    1. `cd`
+    2. `cd Desktop`
+    3. `rm jxclient.jar`
+    4. `wget https://sourceforge.net/projects/crossfire/files/jxclient/jxclient.jar`
+    5. `chmod +x jxclient.jar`
 
 You should now be able to launch the JX Client by clicking on the file icon on the Desktop
 
@@ -344,11 +344,11 @@ The cf-devel-vm is not configured to compile the Gridarta map editor, a snapshot
 
  1. Launch the terminal application
  2. Check for updates in the archetypes directory
-    * `cd`
-    * `cd Desktop`
-    * `rm CrossfireEditor.jar`
-    * `wget https://sourceforge.net/projects/crossfire/files/gridarta-crossfire/CrossfireEditor.jar`
-    * `chmod +x CrossfireEditor.jar`
+    1. `cd`
+    2. `cd Desktop`
+    3. `rm CrossfireEditor.jar`
+    4. `wget https://sourceforge.net/projects/crossfire/files/gridarta-crossfire/CrossfireEditor.jar`
+    5. `chmod +x CrossfireEditor.jar`
 
 You should now be able to launch the Gridarta map editor by clicking on the file icon on the Desktop
 
