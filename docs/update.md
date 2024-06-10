@@ -28,7 +28,7 @@
 
 ### Sample Output of Server Compile
 
-{{{
+```bash
 
 cfdev@cf-devel-beta1:~/crossfire-crossfire-server$ cd
 cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-arch/
@@ -77,7 +77,8 @@ make[2]: Nothing to be done for 'install-data-am'.
 make[2]: Leaving directory '/home/cfdev/crossfire-crossfire-server'
 make[1]: Leaving directory '/home/cfdev/crossfire-crossfire-server'
 cfdev@cf-devel-beta1:~/crossfire-crossfire-server$
-}}}
+
+```
 
 
 ## Crosfire GTKv2 Client Update
@@ -96,7 +97,7 @@ cfdev@cf-devel-beta1:~/crossfire-crossfire-server$
 
 ### Sample Output of GTKv2 Client Compile
 
-{{{
+```bash
 
 cfdev@cf-devel-beta1:~/crossfire-crossfire-server$ cd
 cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-client/
@@ -247,7 +248,7 @@ Install the project...
 -- Up-to-date: /usr/local/bin/crossfire-client-gtk2
 cfdev@cf-devel-beta1:~/crossfire-crossfire-client/build$
 
-}}}
+```
 
 ## CRE Update
 
@@ -264,7 +265,7 @@ The CRE Update requires that the game server is updated and compiled first!
 
 ### Sample Output of CRE Build
 
-{{{
+```bash
 
 cfdev@cf-devel-beta1:~/crossfire-crossfire-client/build$ cd
 cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-server/utils/cre/
@@ -278,7 +279,7 @@ cfdev@cf-devel-beta1:~/crossfire-crossfire-server/utils/cre$ make
 /home/cfdev/crossfire-crossfire-server/common/map.cpp:1429:(.text+0x2da8): warning: the use of 'tempnam' is dangerous, better use 'mkstemp'
 cfdev@cf-devel-beta1:~/crossfire-crossfire-server/utils/cre$
 
-}}}
+```
 
 ## JX Client Update
 
@@ -296,7 +297,7 @@ You should now be able to launch the JX Client by clicking on the file icon on t
 
 ### Sample Output of JX Client Update
 
-{{{
+```bash
 
 cfdev@cf-devel-beta1:~$ cd
 cfdev@cf-devel-beta1:~$ cd Desktop/
@@ -333,7 +334,7 @@ jxclient.jar                           100%[====================================
 
 cfdev@cf-devel-beta1:~/Desktop$ chmod +x jxclient.jar
 
-}}}
+```
 
 ## Gridarta Map Editor Update
 
@@ -351,7 +352,7 @@ You should now be able to launch the Gridarta map editor by clicking on the file
 
 ### Sample Output of Gridarta Map Editor Update
 
-{{{
+```bash
 
 cfdev@cf-devel-beta1:~$ cd
 cfdev@cf-devel-beta1:~$ cd Desktop/
@@ -388,4 +389,4 @@ CrossfireEditor.jar                    100%[====================================
 
 cfdev@cf-devel-beta1:~/Desktop$ chmod +x CrossfireEditor.jar
 
-}}}
+```
