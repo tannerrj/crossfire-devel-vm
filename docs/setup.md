@@ -60,6 +60,7 @@ You can launch or access `VirtualBox` from your `Applications` folder
 Download the Virtual Machine OVF file from [Google Drive](https://drive.google.com/file/d/14h4jBSPbw_QnwRSoPQ-sXx8wrgwn3QDo/view?usp=sharing) at 4.99 GB.
 
 HashSUM
+
  * md5 = dd86be9a7ffbc638109760de84a85fd0
  * shasum = 231f319c04bce6f0c5e743a18e5f054deb773c3f
  * shasum256 = 8aba9dbc073023a3637ed403def675d5012267a997d3861eab4aa8d8187ab6d4
@@ -81,6 +82,7 @@ VirtualBox interface is the same for Linux, MacOS, and Windows - so the followin
  11. Click the `Start` button to launch the VM
 
 References:
+
  * <https://www.simplified.guide/virtualbox/vm-import>
  * <https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/ovf.html>
 
@@ -101,6 +103,7 @@ In case it is necessary, here is how the VM was created and exported as a OVA fi
  
 
 References:
+
  * <https://www.simplified.guide/virtualbox/vm-export>
  * <https://docs.oracle.com/en/virtualization/virtualbox/6.0/user/ovf.html>
 
