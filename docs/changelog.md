@@ -17,6 +17,10 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
       * System updates via `sudo apt update && sudo apt upgrade`
   * Docs Update
     * Initial creation of `changelog.md` file
+    * Update `roadmap.md` file
+      * Status update on using yad
+      * Release schedule needs documentation
+      * Maintain HOWTO documentation
 
 2024-June-10
   * Docs Updates
