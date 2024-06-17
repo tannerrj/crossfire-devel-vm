@@ -3,6 +3,7 @@
 Notable changes, for full details check `gitlog` or the [GitHub project website](https://github.com/tannerrj/crossfire-devel-vm/commits/main/)
 
 2024-June-14
+
   * Script Updates
     * New bash script to update the archetypes, maps, and server directories
     * New bash script to update the client (GTKv2 Client) and sounds directories
@@ -23,12 +24,14 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
       * Maintain HOWTO documentation
 
 2024-June-10
+
   * Docs Updates
     * Format updates to setup.md file
     * Format updates to update.md file
     * Wording and format updates to the README file
 
 2024-June-03
+
   * VM Updates
     * Code updates via `git pull` for crossfire-crossfire-client
     * Update GTKv2 Client to git rev a65e1d
@@ -39,6 +42,7 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
     * System updates via `sudo apt update && sudo apt upgrade`
 
 2024-June-01
+
   * VM Updates
     * Code updates via `git pull` for corssfire-crossfire-client
     * Update GTKv2 Client to git rev a46aeac
@@ -46,6 +50,7 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
     * System updates via `sudo apt update && sudo apt upgrade`
 
 2024-May-31
+
   * VM Updates
     * Added desktop shortcut link to config.h file
     * Content updates via `git pull` for crossfire-crossfire-maps
@@ -60,5 +65,6 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
 ---
 
 2024-May-30
+
   * Initial release, cf-devel-beta1
 
