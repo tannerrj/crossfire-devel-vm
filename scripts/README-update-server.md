@@ -67,15 +67,15 @@ To run the server update command via GUI and from the VM Desktop
 
  1. A `.desktop` file needs to be created and saved in the `Desktop` directory (`/home/cfdev/Desktop`)
 
-```
-
-[Desktop Entry]
-Type=Application
-Name=Server Update
-Exec=/home/cfdev/server-update.sh
-Terminal=true
-
-```
+ ```
+ 
+ [Desktop Entry]
+ Type=Application
+ Name=Server Update
+ Exec=/home/cfdev/server-update.sh
+ Terminal=true
+ 
+ ```
 
  2. Permissions are updated to make the file executable, `chmod +x update-server.desktop`
  3. Double click the file to run the command
