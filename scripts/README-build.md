@@ -87,5 +87,13 @@ sudo apt install -y openssh-server
 echo "DONE"
 date
 
-
 ```
+
+### Explanation of the script:
+
+ 1. `#!/bin/bash`: This shebang line tells the system to use the bash shell to interpret this script.
+ 2. `cd crossfire-crossfire-client/`: Change the directory to `crossfire-crossfire-client/`.
+ 3. `if [ $? -ne 0 ]; then ... fi`: Check if the previous command was successful. `$?` holds the exit status of the last executed command. If it's not zero (indicating an error), print an error message and exit the script with a non-zero status.
+ 4. `git pull`: Pull the latest changes from the git repository in the current directory.
+ 5. Repeat the directory change and git pull commands for the `sounds/` subdirectory within `crossfire-crossfire-client/`.
+ 6. Print a success message if all commands are executed without errors.
