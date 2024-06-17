@@ -8,7 +8,7 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
     * New bash script to update the archetypes, maps, and server directories
     * New bash script to update the client (GTKv2 Client) and sounds directories
     * New bash script to set up all the dependencies and code needed for the VM development environment
-    * README related files for the build, client, and server scripts
+    * Created README related files for the build, client, and server scripts
   * VM Updates
       * Code updates via `git pull` for crossfire-crossfire-server
       * Recompiled Crossfire Server, now running Crossfire v1.75.0-1381-gb638853f3
