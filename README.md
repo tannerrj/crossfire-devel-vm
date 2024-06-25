@@ -29,7 +29,7 @@ File shortcuts have been created on the Desktop to `settings` and `dm_file` and 
  * BE CAREFUL! It is possible to make changes that will not allow the game to run normally!!
  * Any changes to the settings file will require you to recompile the server (see `update.md` for instructions on that) and also stop and restart the server before the changes are live
 
-`dm_file` is where you can select which player(s) have "god-mode" or DM (dungeon master) and optionally password protect that access on the server.
+`dm_file` is where you can select which player(s) have "god-mode" or DM (dungeon master) and optionally password-protect that access on the server.
 
  * Once this file is updated and saved, a recompile or restart of the server is -NOT- necessary; the permissions go live once the file is saved
  * See the wiki page, [DM Commands](http://wiki.cross-fire.org/dokuwiki/doku.php/dm_commands), for more information
