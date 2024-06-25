@@ -3,7 +3,7 @@
 ## OS Update
 
  1. Launch the terminal application
- 2. Enter the following command: `sudo apte update && sudo apt upgrade`
+ 2. Enter the following command: `sudo apt update && sudo apt upgrade`
  3. If updates are available, press the `y` key to approve and install the updates
 
 ## Server Update
