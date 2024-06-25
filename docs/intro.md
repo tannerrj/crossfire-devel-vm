@@ -22,7 +22,7 @@ User login info:
 
 ## Software Installation
 
-The following software packages were installed to compile the Server, GTK v2 Client, CRE, and in order to launch and use Map Editor and JX Client
+The following software packages were installed to compile the Server, GTK v2 Client, CRE, and to launch and use Map Editor and JX Client
 
 ### Crossfire Server
 
@@ -75,7 +75,7 @@ The following software packages were installed to compile the Server, GTK v2 Cli
 
 ### Other Packages
 
-This package is not needed, but is helpful
+The following packages are not needed, but are helpful
 
  * openssh-server - secure shell (SSH) server, for secure access from remote machines
  * hexchat - IRC client for X based on X-Chat 2
