@@ -285,7 +285,7 @@ cfdev@cf-devel-beta1:~/crossfire-crossfire-server/utils/cre$
 
 ## JX Client Update
 
-The cf-devel-vm is not configured to compile the JX Client, a snapshot release of the client is downloaded from the project site at SouceForge
+The cf-devel-vm is not configured to compile the JX Client, a snapshot release of the client is downloaded from the project site at SourceForge
 
  1. Launch the terminal application
  2. Check for updates in the archetypes directory
