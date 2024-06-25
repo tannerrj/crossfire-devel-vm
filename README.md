@@ -47,7 +47,7 @@ With how the server is currently configured in the VM, any new archetypes or gra
 
 ## Usage
 
-The virtual machine (vm) provides an all-in-one development environment for the game of [Crossfire](https://sourceforge.net/projects/crossfire/).
+The virtual machine (VM) provides an all-in-one development environment for the game of [Crossfire](https://sourceforge.net/projects/crossfire/).
 
 The `update.md` file contains instructions for updating the sourcecode and then compiling Crossfire server, GTKv2 Client, and CRE.
 
