@@ -340,7 +340,7 @@ cfdev@cf-devel-beta1:~/Desktop$ chmod +x jxclient.jar
 
 ## Gridarta Map Editor Update
 
-The cf-devel-vm is not configured to compile the Gridarta map editor, a snapshot release of the client is downloaded from the project site at SouceForge
+The cf-devel-vm is not configured to compile the Gridarta map editor, a snapshot release of the client is downloaded from the project site at SourceForge
 
  1. Launch the terminal application
  2. Check for updates in the archetypes directory
