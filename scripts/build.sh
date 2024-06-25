@@ -55,7 +55,7 @@ sudo apt install -y default-jre
 echo "Downloading CrossfireEditor and jxclient..."
 cd /home/cfdev/Desktop
 wget http://192.168.0.6/tmp/CrossfireEditor.jar
-wget http://192.168.0.6/tmp/jxclient.jar
+wget https://sourceforge.net/projects/crossfire/files/jxclient/jxclient.jar/download
 chmod +x jxclient.jar
 chmod +x CrossfireEditor.jar
 cd
