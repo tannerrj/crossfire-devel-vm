@@ -75,7 +75,7 @@ The following software packages were installed to compile the Server, GTK v2 Cli
 
 ### Other Packages
 
-The following packages are not needed, but are helpful
+The following packages are not needed but are helpful
 
  * openssh-server - secure shell (SSH) server, for secure access from remote machines
  * hexchat - IRC client for X based on X-Chat 2
