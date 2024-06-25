@@ -11,13 +11,13 @@ HOWTO guide for setting up Virtual Box and importing the CF Devel Virtual Machin
  3. Wait for the download to finish
  4. Open `Windows Explorer` and then open `Downloads`
  5. Double-click the `Virtual Box` installation file
- 6. If the `UAC (User Access Control)` pop-up window appears, click `Yes` button to continue
+ 6. If the `UAC (User Access Control)` pop-up window appears, click the `Yes` button to continue
  7. You should now see the `Oracle VirtualBox` installation wizard
  8. Proceed with the installation by clicking `Next` or `Yes`
  9. If you see a warning prompt about resetting the network connection, make sure to click `Yes`
- 10. Any prompts about installing additional dependencies (i.e., `Python Core` or `Win32api`), click `Yes`
+ 10. For any prompts about installing additional dependencies (i.e., `Python Core` or `Win32api`), click `Yes`
  11. When prompted, click on the `Install` button
- 12. And finally, click the `Finish` button when the install has completed
+ 12. And finally, click the `Finish` button when the installation has completed
 
 
 You can access `VirtualBox` through your Program Files menu 
