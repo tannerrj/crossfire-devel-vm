@@ -91,7 +91,7 @@ VirtualBox is licensed under the `GNU General Public License, version 3`, <https
 
 Crossfire and its related code base is released using the `GNU General Public License version 2.0 (GPLv2)` license, <https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html>.
 
-If a license is required for the creation and release of the VM, then I am choosing to use `MIT license` - <https://opensource.org/license/mit> or included as the `LICENSE` file in this project.
+If a license is required for the creation and release of the VM, then I am choosing to use `MIT license` - <https://opensource.org/license/mit> or include it as the `LICENSE` file in this project.
 
 
 ## Crossfire Social Media Links
