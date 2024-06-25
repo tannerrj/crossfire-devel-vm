@@ -43,11 +43,11 @@ You can launch or access `VirtualBox` through your application launcher
  2. Click on `macOS / Intel hosts`
  3. Wait for the download to finish
  4. Launch `Finder` and then open `Downloads`
- 5. Double click to open or launch the downloaded VirtualBox `.dmg` file to start the installation process
+ 5. Double-click to open or launch the downloaded VirtualBox `.dmg` file to start the installation process
  6. You should now see the `Oracle VirtualBox` installation wizard
  7. Proceed with the installation by clicking `Continue` or `Install`
  8. Enter the necessary login credentials to authorize the software installation
- 9. Once the installation has completed, click `Close`
+ 9. Once the installation has been completed, click `Close`
  10. VirtualBox is now installed
 
 You can launch or access `VirtualBox` from your `Applications` folder
