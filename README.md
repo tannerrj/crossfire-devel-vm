@@ -67,7 +67,7 @@ To launch CRE using the Terminal application: `./home/cfdev/crossfire-crossfire-
 
 ### JX Client
 
-Double click the `jxclient.jar` file on the Desktop
+Double-click the `jxclient.jar` file on the Desktop
 
 ### Gridarta Map Editor
 
