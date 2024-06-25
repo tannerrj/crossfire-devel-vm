@@ -88,11 +88,11 @@ References:
 
 ## VirtualMachine Export
 
-In case it is necessary, here is how the VM was created and exported as a OVA file
+In case it is necessary, here is how the VM was created and exported as an OVA file
 
  1. Launch VirtualBox
  2. Click on `Tools`
- 3. Click on `Export` button
+ 3. Click on the `Export` button
  4. Select `Open Virtualization Format 1.0`
  5. Choose a `file name` that the exported virtual machine will use and the location it will be saved to (defaults to the `Documents` directory)
  6. Select `Include only NAT network adapter MAC addresses`
