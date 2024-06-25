@@ -18,7 +18,7 @@ The software packages include VirtualBox and hardware capable of running Virtual
  * 8GB of RAM or more
  * 30GB of free disk space
 
-See the `intro.md` write-up for more information on the vm configuration.
+See the `intro.md` write-up for more information on the VM configuration.
 
 ## Guidelines
 
