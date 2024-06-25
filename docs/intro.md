@@ -4,7 +4,7 @@ How the VM was created and what was installed on it
 
 ## Base OS
 
-The base OS used for creating the VM was Ubuntu 24.04 (Gnome) with the third party (free) package installation selected
+The base OS used for creating the VM was Ubuntu 24.04 (Gnome) with the third-party (free) package installation selected
 
 User login info:
  * Username: `cfdev`
