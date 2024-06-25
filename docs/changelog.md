@@ -2,6 +2,11 @@
 
 Notable changes, for full details check `gitlog` or the [GitHub project website](https://github.com/tannerrj/crossfire-devel-vm/commits/main/)
 
+2024-June-25
+
+  * Docs Update
+    * Numerous spelling, grammar, and wording updates to multiple README files
+
 2024-June-14
 
   * Script Updates
