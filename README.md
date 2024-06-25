@@ -71,7 +71,7 @@ Double-click the `jxclient.jar` file on the Desktop
 
 ### Gridarta Map Editor
 
-Double click the `CrossfireEditor.jar` file on the Desktop
+Double-click the `CrossfireEditor.jar` file on the Desktop
 
 ## Contributing
 
