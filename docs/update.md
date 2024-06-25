@@ -1,4 +1,4 @@
-# Commands to Update the VM Operating System (OS) and Crossfire Code base
+# Commands to Update the VM Operating System (OS) and Crossfire Codebase
 
 ## OS Update
 
