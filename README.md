@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the initial release (Beta-1) of an Ubuntu Noble 24.04 (Gnome) VirtualBox virtual machine (VM) with all the necessary components to run the game server, map editor, gtkv2 client, JX Client, Crossfire Resource Editor (CRE) and additional tools to modify and create new graphics. The VM lso includes software packages to communicate with the game project players and developers via [Discord](https://crossfire.real-time.com/discord/) or [IRC](https://crossfire.real-time.com/irc/).
+This is the initial release (Beta-1) of an Ubuntu Noble 24.04 (Gnome) VirtualBox virtual machine (VM) with all the necessary components to run the game server, map editor, gtkv2 client, JX Client, Crossfire Resource Editor (CRE) and additional tools to modify and create new graphics. The VM also includes software packages to communicate with the game project players and developers via [Discord](https://crossfire.real-time.com/discord/) or [IRC](https://crossfire.real-time.com/irc/).
 
 While it should be safe to install and run the VM, the actual performance and stability of the VM needs further testing. So, use with caution and make sure to backup any important or critical data as you work in the VM!
 
