@@ -85,7 +85,7 @@ I can be reached via [tannerrj GitHub Profile](https://github.com/tannerrj)
 
 ## Licenses:
 
-The virtual machine runs multiple software with numerous license associated with them, see <https://ubuntu.com/legal/open-source-licences>.
+The virtual machine runs multiple software with numerous licenses associated with them, see <https://ubuntu.com/legal/open-source-licences>.
 
 VirtualBox is licensed under the `GNU General Public License, version 3`, <https://www.virtualbox.org/wiki/GPLv3>.
 
