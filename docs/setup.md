@@ -71,8 +71,8 @@ VirtualBox interface is the same for Linux, MacOS, and Windows - so the followin
 
  1. Launch VirtualBox
  2. Click on `Tools`
- 3. Click on `Import` button
- 4. Click on the folder icon to locate the vm OVF file
+ 3. Click on the `Import` button
+ 4. Click on the folder icon to locate the VM OVF file
  5. The OVF file is likely in your `Downloads` folder, so navigate to there and select the OVF file
  6. Click the `Open` button
  7. Click the `Next`button
