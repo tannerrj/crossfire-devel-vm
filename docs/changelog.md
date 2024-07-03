@@ -2,6 +2,19 @@
 
 Notable changes, for full details check `gitlog` or the [GitHub project website](https://github.com/tannerrj/crossfire-devel-vm/commits/main/)
 
+2024-July-03
+
+  * Second release, `cf-devel-beta2`
+
+2024-July-01
+
+  * VM Updates
+    * Code updates via `git pull` for crossfire-crossfire-arch
+    * Update Crossfire Archetypes to git rev 99a461
+      *  Remove godpower attacks from some angels
+    * System updates via `sudo apt update && sudo apt upgrade`
+    * * Recompiled Crossfire Server, now running Crossfire v1.75.0-1381-gb638853f3
+
 2024-June-25
 
   * Docs Update
@@ -71,5 +84,5 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
 
 2024-May-30
 
-  * Initial release, cf-devel-beta1
+  * Initial release, `cf-devel-beta1`
 
