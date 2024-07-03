@@ -32,20 +32,20 @@ For error messages encountered during the compile, check the Crossfire Wiki for 
 
 ```bash
 
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server$ cd
-cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-arch/
-cfdev@cf-devel-beta1:~/crossfire-crossfire-arch$ git pull
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server$ cd
+cfdev@cf-devel-beta2:~$ cd crossfire-crossfire-arch/
+cfdev@cf-devel-beta2:~/crossfire-crossfire-arch$ git pull
 Already up to date.
-cfdev@cf-devel-beta1:~/crossfire-crossfire-arch$ cd ..
-cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-maps/
-cfdev@cf-devel-beta1:~/crossfire-crossfire-maps$ git pull
+cfdev@cf-devel-beta2:~/crossfire-crossfire-arch$ cd ..
+cfdev@cf-devel-beta2:~$ cd crossfire-crossfire-maps/
+cfdev@cf-devel-beta2:~/crossfire-crossfire-maps$ git pull
 Already up to date.
-cfdev@cf-devel-beta1:~/crossfire-crossfire-maps$ cd ..
-cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-server/
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server$ git pull
+cfdev@cf-devel-beta2:~/crossfire-crossfire-maps$ cd ..
+cfdev@cf-devel-beta2:~$ cd crossfire-crossfire-server/
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server$ git pull
 Already up to date.
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server$ cd lib/
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server/lib$ make do-collect
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server$ cd lib/
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server/lib$ make do-collect
 rm -f .collect-stamp
 make collect
 make[1]: Entering directory '/home/cfdev/crossfire-crossfire-server/lib'
@@ -69,8 +69,8 @@ rm -f crossfire.arc crossfire.face crossfire.trs crossfire.tar crossfire.artifac
 24/05/25 23:49:07 [II]   citybell (Ring bells every hour for defined temples): closed
 24/05/25 23:49:07 [II]   citylife (Add NPCs in towns): closed
 make[1]: Leaving directory '/home/cfdev/crossfire-crossfire-server/lib
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server/lib$ cd ..
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server$ sh autogen.sh && make && sudo make install
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server/lib$ cd ..
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server$ sh autogen.sh && make && sudo make install
 
 < multiple lines of scrolling text>
 
@@ -78,7 +78,7 @@ make[2]: Nothing to be done for 'install-exec-am'.
 make[2]: Nothing to be done for 'install-data-am'.
 make[2]: Leaving directory '/home/cfdev/crossfire-crossfire-server'
 make[1]: Leaving directory '/home/cfdev/crossfire-crossfire-server'
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server$
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server$
 
 ```
 
@@ -101,16 +101,16 @@ cfdev@cf-devel-beta1:~/crossfire-crossfire-server$
 
 ```bash
 
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server$ cd
-cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-client/
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client$ git pull
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server$ cd
+cfdev@cf-devel-beta2:~$ cd crossfire-crossfire-client/
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client$ git pull
 Already up to date.
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client/sounds$ git pull
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client/sounds$ git pull
 Already up to date.
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client/sounds$ cd ..
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client$
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client$ cd build/
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client/build$ cmake .. && make && sudo make install
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client/sounds$ cd ..
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client$
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client$ cd build/
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client/build$ cmake .. && make && sudo make install
 -- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/cfdev/crossfire-crossfire-client/build
@@ -248,7 +248,7 @@ Install the project...
 -- Up-to-date: /usr/local/share/icons/hicolor/32x32/apps/crossfire-client.png
 -- Up-to-date: /usr/local/share/icons/hicolor/48x48/apps/crossfire-client.png
 -- Up-to-date: /usr/local/bin/crossfire-client-gtk2
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client/build$
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client/build$
 
 ```
 
@@ -269,17 +269,17 @@ The CRE Update requires that the game server is updated and compiled first!
 
 ```bash
 
-cfdev@cf-devel-beta1:~/crossfire-crossfire-client/build$ cd
-cfdev@cf-devel-beta1:~$ cd crossfire-crossfire-server/utils/cre/
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server/utils/cre$ qmake
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server/utils/cre$ make
+cfdev@cf-devel-beta2:~/crossfire-crossfire-client/build$ cd
+cfdev@cf-devel-beta2:~$ cd crossfire-crossfire-server/utils/cre/
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server/utils/cre$ qmake
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server/utils/cre$ make
 
 < multiple lines of scrolling text a few minutes later>
 
 .so /usr/lib/x86_64-linux-gnu/libQt5Core.so -lGL
 /usr/bin/ld: ../../common/libcross.a(map.o): in function 'save_map(mapstruct*, int)':
 /home/cfdev/crossfire-crossfire-server/common/map.cpp:1429:(.text+0x2da8): warning: the use of 'tempnam' is dangerous, better use 'mkstemp'
-cfdev@cf-devel-beta1:~/crossfire-crossfire-server/utils/cre$
+cfdev@cf-devel-beta2:~/crossfire-crossfire-server/utils/cre$
 
 ```
 
@@ -301,10 +301,10 @@ You should now be able to launch the JX Client by clicking on the file icon on t
 
 ```bash
 
-cfdev@cf-devel-beta1:~$ cd
-cfdev@cf-devel-beta1:~$ cd Desktop/
-cfdev@cf-devel-beta1:~/Desktop$ rm jxclient.jar
-cfdev@cf-devel-beta1:~/Desktop$ wget https://sourceforge.net/projects/crossfire/files/jxclient/jxclient.jar
+cfdev@cf-devel-beta2:~$ cd
+cfdev@cf-devel-beta2:~$ cd Desktop/
+cfdev@cf-devel-beta2:~/Desktop$ rm jxclient.jar
+cfdev@cf-devel-beta2:~/Desktop$ wget https://sourceforge.net/projects/crossfire/files/jxclient/jxclient.jar
 --2024-05-26 23:53:18--  https://sourceforge.net/projects/crossfire/files/jxclient/jxclient.jar
 Resolving sourceforge.net (sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:c95, ...
 Connecting to sourceforge.net (sourceforge.net)|104.18.12.149|:443... connected.
@@ -334,7 +334,7 @@ jxclient.jar                           100%[====================================
 
 2024-05-26 23:53:32 (1.74 MB/s) - ‘jxclient.jar’ saved [22908411/22908411]
 
-cfdev@cf-devel-beta1:~/Desktop$ chmod +x jxclient.jar
+cfdev@cf-devel-beta2:~/Desktop$ chmod +x jxclient.jar
 
 ```
 
@@ -356,10 +356,10 @@ You should now be able to launch the Gridarta map editor by clicking on the file
 
 ```bash
 
-cfdev@cf-devel-beta1:~$ cd
-cfdev@cf-devel-beta1:~$ cd Desktop/
-cfdev@cf-devel-beta1:~/Desktop$ rm CrossfireEditor.jar
-cfdev@cf-devel-beta1:~/Desktop$ wget https://sourceforge.net/projects/crossfire/files/gridarta-crossfire/CrossfireEditor.jar
+cfdev@cf-devel-beta2:~$ cd
+cfdev@cf-devel-beta2:~$ cd Desktop/
+cfdev@cf-devel-beta2:~/Desktop$ rm CrossfireEditor.jar
+cfdev@cf-devel-beta2:~/Desktop$ wget https://sourceforge.net/projects/crossfire/files/gridarta-crossfire/CrossfireEditor.jar
 --2024-05-26 23:55:47--  https://sourceforge.net/projects/crossfire/files/gridarta-crossfire/CrossfireEditor.jar
 Resolving sourceforge.net (sourceforge.net)... 104.18.12.149, 104.18.13.149, 2606:4700::6812:d95, ...
 Connecting to sourceforge.net (sourceforge.net)|104.18.12.149|:443... connected.
@@ -389,6 +389,6 @@ CrossfireEditor.jar                    100%[====================================
 
 2024-05-26 23:55:50 (5.04 MB/s) - ‘CrossfireEditor.jar’ saved [9199004/9199004]
 
-cfdev@cf-devel-beta1:~/Desktop$ chmod +x CrossfireEditor.jar
+cfdev@cf-devel-beta2:~/Desktop$ chmod +x CrossfireEditor.jar
 
 ```
