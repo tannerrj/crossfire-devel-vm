@@ -57,13 +57,13 @@ You can launch or access `VirtualBox` from your `Applications` folder
 
 ### Download
 
-Download the Virtual Machine OVF file from [Google Drive](https://drive.google.com/file/d/14h4jBSPbw_QnwRSoPQ-sXx8wrgwn3QDo/view?usp=sharing) at 4.99 GB.
+Download the Virtual Machine OVF file from [Google Drive](https://drive.google.com/file/d/1u8HqgbKzEV-CLVOPdoNmlmHxIwsvjjDC/view?usp=sharing) at 8.4 GB.
 
 HashSUM
 
- * md5 = dd86be9a7ffbc638109760de84a85fd0
- * shasum = 231f319c04bce6f0c5e743a18e5f054deb773c3f
- * shasum256 = 8aba9dbc073023a3637ed403def675d5012267a997d3861eab4aa8d8187ab6d4
+ * md5 = 9711344ee9e3d39fc06e4efdc52ae7c1
+ * shasum = 603b93e578b4adf0ba6d6a007c1613b6052b2ec3
+ * shasum256 = 5bf51cee6de5db4e3f95bb9ef65ae68ca2ea091d62b37e3c2bb612047245ed58
 
 ## VirtualMachine Import
 
