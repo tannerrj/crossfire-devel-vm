@@ -2,6 +2,14 @@
 
 Notable changes, for full details check `gitlog` or the [GitHub project website](https://github.com/tannerrj/crossfire-devel-vm/commits/main/)
 
+
+2024-July-05
+
+  * Docs Update
+    * Updated README to fix command syntax to launch the GTKv2 client, Crossfire CRE, and Crossfire Server from the CLI
+
+----
+
 2024-July-03
 
   * Second release, `cf-devel-beta2`
