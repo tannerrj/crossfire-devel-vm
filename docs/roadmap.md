@@ -5,7 +5,7 @@ Tracking ideas and tasks to work on or improve.
 ## Things to Work On
 
  * Include build instructions for mapper
- * yad progress is not going well, found a possible better way using a `.desktop` file to run a `bash script` - still testing this
+ * Use `.desktop` files to run more `bash scripts`
  * Include screenshots for the setup pages on how to install and manage VirtualBox
  * Documentation improvements for clarity and grammar corrections
  * VM export is in `Open Virtualization Format 1.0` - what else is that compatible with besides VirtualBox?
