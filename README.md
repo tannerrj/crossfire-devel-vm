@@ -57,13 +57,19 @@ Also included in `update.md` are instructions for downloading the latest snapsho
 
 To launch the game client using the Terminal application: `/home/cfdev/crossfire-crossfire-client/build/gtk-v2/src/crossfire-client-gtk2`
 
+Or, double-click the `Launch GTKv2 Client` icon on the Desktop
+
 ### Crossfire Server Launch
 
 To launch the game server using the Terminal application: `/home/cfdev/crossfire-crossfire-server/server/crossfire-server`
 
+Or, double-click the `Launch Crossfire Server` icon on the Desktop
+
 ### Crossfire CRE
 
 To launch CRE using the Terminal application: `/home/cfdev/crossfire-crossfire-server/utils/cre/cre`
+
+Or, double-click the `Launch CRE` icon on the Desktop
 
 ### JX Client
 
