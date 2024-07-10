@@ -27,8 +27,8 @@ ln -s /home/cfdev/crossfire-crossfire-maps /usr/games/crossfire/share/crossfire/
 ln -s /home/cfdev/crossfire-crossfire-arch ./arch
 cd ..
 
-echo "Configuring and building Crossfire server..."
-sh autogen.sh && make && sudo make install
+echo "Configuring and building Crossfire server with Mapper enabled..."
+sh autogen.sh --enable-mapper && make && sudo make install
 ./server/crossfire-server
 sudo chown -R cfdev:cfdev /usr/games/crossfire/
 cd
