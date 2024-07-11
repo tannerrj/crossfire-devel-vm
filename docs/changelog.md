@@ -3,6 +3,19 @@
 Notable changes, for full details check `gitlog` or the [GitHub project website](https://github.com/tannerrj/crossfire-devel-vm/commits/main/)
 
 
+2024-July-10
+
+  * VM Updates
+    * Content updates via `git pull` for crossfire-crossfire-maps
+    * System updates via `sudo apt update && sudo apt upgrade`
+    * Crossfire server compiled now with Mapper support, but map content has not been generated in the VM
+      * For Mapper output examples, see <https://github.com/tannerrj/cfmapper-content> for raw content or <http://www.crossfireatlas.net/> for a more content rich version
+  * Scripts
+    * Update `build.sh` script and `README-build.md` to enable Mapper
+  * Docs update
+    * Update `README` with instructions on how to launch GTKv2 Client, Crossfire Server, and CRE using desktop icons
+    * Update `READNE` with information on how to use and access Mapper output
+
 2024-July-05
 
   * Docs Update
@@ -21,7 +34,7 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
     * Update Crossfire Archetypes to git rev 99a461
       *  Remove godpower attacks from some angels
     * System updates via `sudo apt update && sudo apt upgrade`
-    * * Recompiled Crossfire Server, now running Crossfire v1.75.0-1381-gb638853f3
+    * Recompiled Crossfire Server, now running Crossfire v1.75.0-1381-gb638853f3
 
 2024-June-25
 
