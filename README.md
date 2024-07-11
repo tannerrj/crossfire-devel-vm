@@ -79,6 +79,14 @@ Double-click the `jxclient.jar` file on the Desktop
 
 Double-click the `CrossfireEditor.jar` file on the Desktop
 
+### Mapper
+
+Mapper application is located in `/home/cfdev/crossfire-crossfire-server/utils/mapper/`
+
+Command to create the map content: `./crossfire-mapper -regionslink -exitmap -addmap=HallOfDMs -list-system-quests`
+
+Map content output directory: `/home/cfdev/crossfire-crossfire-server/utils/mapper/html`
+
 ## Contributing
 
  * Contributions are welcome.
