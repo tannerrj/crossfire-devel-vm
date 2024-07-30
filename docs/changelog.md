@@ -3,6 +3,23 @@
 Notable changes, for full details check `gitlog` or the [GitHub project website](https://github.com/tannerrj/crossfire-devel-vm/commits/main/)
 
 
+2024-July-30
+
+  * Third release, `cf-devel-beta3`
+
+2024-July-29
+
+  * VM Updates
+    * System updates via `sudo apt update && sudo apt upgrade`
+    * Content updates via `git pull` for crossfire-crossfire-arch, crossfire-crossfire-maps, and crossfire-crossfire-server
+    * Update Crossfire Archetypes to git rev 378e22
+      * Add summary comments to clarify how no_magic, no_spells, and unholy_ground floor tiles function
+    * Update Crosfire Maps to git rev 8db3b46
+    * Update Crossfire Server to git rev 223d6c
+      * Add debugging variable to bypass password checks
+      * Adjust starvation damage rate
+    * Recompiled Crossfire Server, now running Crossfire v1.75.0-1383-g223d6c857
+
 2024-July-10
 
   * VM Updates
@@ -93,7 +110,7 @@ Notable changes, for full details check `gitlog` or the [GitHub project website]
   * VM Updates
     * Added desktop shortcut link to config.h file
     * Content updates via `git pull` for crossfire-crossfire-maps
-    * Code updates via `git pull` for corssfire-crossfire-server
+    * Code updates via `git pull` for crossfire-crossfire-server
       * Recompiled Crossfire Server, now running Crossfire v1.75.0-1376-gf5b374077
     * System updates via `sudo apt update && sudo apt upgrade`
   * Docs Updates
