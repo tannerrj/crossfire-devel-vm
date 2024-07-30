@@ -61,9 +61,9 @@ Download the Virtual Machine OVF file from [Google Drive](https://drive.google.c
 
 HashSUM
 
- * md5 = 9711344ee9e3d39fc06e4efdc52ae7c1
- * shasum = 603b93e578b4adf0ba6d6a007c1613b6052b2ec3
- * shasum256 = 5bf51cee6de5db4e3f95bb9ef65ae68ca2ea091d62b37e3c2bb612047245ed58
+ * md5 = 98fb7c8e6f785f36df03bc2783f66f29
+ * shasum = e3d8e721554c9deb3427fd9cec05b4a054acf9e0
+ * shasum256 = 118166aaa820780f2ae3c0f00d4ad9ad8072fa352d42b30f388823e8497dde6a
 
 ## VirtualMachine Import
 
