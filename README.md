@@ -110,6 +110,7 @@ If a license is required for the creation and release of the VM, then I am choos
 
 ## Crossfire Social Media Links
 
+ * [BlueSky](https://bsky.app/profile/crossfireproject.bsky.social)
  * [Facebook](https://www.facebook.com/crossfireproject/)
  * [Mastodon](https://mastodon.social/@crossfiremrpg)
  * [X (Formerly Twitter)](https://twitter.com/crossfiremrpg/)
